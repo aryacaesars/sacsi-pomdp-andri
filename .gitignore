@@ -9,6 +9,7 @@ venv/
 !.env.example
 pytest-cache-files-*/
 Results/sacsi_reward_smoke_*/
-Logs/
+Logs/*
+!Logs/Final_Experiment/
 00_Dataset/Historical Weather 2021-2025.csv
 00_Dataset/Historical Forecast 2021-2025.csv
