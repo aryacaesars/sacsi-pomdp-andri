@@ -1,0 +1,40 @@
+{
+  "module": "9B",
+  "status": "READY",
+  "source_release": "Results/Dashboard/dashboard_release_metadata.json",
+  "dashboard_status": "READY",
+  "update_map_rows": 18,
+  "result_insertions": 33,
+  "hypothesis_decisions": 4,
+  "claims": 13,
+  "source_files_registered": 17,
+  "unsupported_superiority_claims": 0,
+  "h2_direct_test_guard_retained": true,
+  "outputs": {
+    "dissertation_update_map.csv": {
+      "path": "Results/Dissertation_Evidence/dissertation_update_map.csv",
+      "sha256": "20048d4ac240641b3c3d4eae3665c664fcddfef6b6728ed775080135efacd3b1"
+    },
+    "result_insertion_matrix.csv": {
+      "path": "Results/Dissertation_Evidence/result_insertion_matrix.csv",
+      "sha256": "dfb315ed49c23cfa3c81250d05071ccbb7f6221cb2874df03b7bdfdc996d2ed4"
+    },
+    "hypothesis_decision_table.csv": {
+      "path": "Results/Dissertation_Evidence/hypothesis_decision_table.csv",
+      "sha256": "3c88f771cc4791806d3f202329e5b2e0004a84443baa327aa408b2a7c357739c"
+    },
+    "claim_matrix.csv": {
+      "path": "Results/Dissertation_Evidence/claim_matrix.csv",
+      "sha256": "eaf607ad89f9a7d643a13c4b33f9bfd1f4a5f53d780dc8ef8272f7d5090d9d9e"
+    },
+    "chapter_results_draft.md": {
+      "path": "Docs/Dissertation/chapter_results_draft.md",
+      "sha256": "29fcec0d18a92f06dcf4b0bb8df1f52aff33f5a46eabc632f1373cfab7330c72"
+    },
+    "chapter_discussion_draft.md": {
+      "path": "Docs/Dissertation/chapter_discussion_draft.md",
+      "sha256": "a9c2930f451b3fd92e0c49786d60b59a44e1bb06a65b8127b9a5bddc693583b6"
+    }
+  },
+  "generated_utc": "2026-08-21T11:31:02.358221+00:00"
+}

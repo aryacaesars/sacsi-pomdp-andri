@@ -1,0 +1,7 @@
+case_id,expected_response,hours,initial_theta,final_theta,min_theta,max_theta,total_rain_mm,total_irrigation_mm,total_runoff_mm,max_abs_mass_balance_error_mm,action_bounded,all_finite,response_passed,passed
+C1,theta decreases without rain or irrigation,48,0.27,0.21570253981470633,0.21570253981470633,0.26886666666666664,0.0,0.0,0.0,0.0,True,True,True,True
+C2,rain pulse increases theta,24,0.27,0.27613333333333306,0.25639999999999985,0.28859999999999986,10.0,0.0,0.0,0.0,True,True,True,True
+C3,bounded irrigation pulse increases theta,24,0.27,0.2594666666666664,0.25639999999999985,0.2719333333333332,0.0,5.0,0.0,0.0,True,True,True,True
+C4,near-upper-band state receives no irrigation,12,0.319,0.3121999999999999,0.3121999999999999,0.31843333333333335,0.0,0.0,0.0,0.0,True,True,True,True
+C5,below-target state recovers into target band,12,0.2,0.25989365079365073,0.2161269841269841,0.2644269841269841,0.0,20.0,0.0,0.0,True,True,True,True
+C6,heavy-rain forecast suppresses irrigation,3,0.2,0.26496666666666663,0.26496666666666663,0.2661,25.0,0.0,5.0,0.0,True,True,True,True

@@ -1,0 +1,10 @@
+analysis_family,comparison,primary_p_raw,primary_p_holm,primary_significant_0_05
+main_benchmark,SACSI-POMDP - SAC,0.015625,0.046875,True
+main_benchmark,SACSI-POMDP - TD3,0.01953125,0.046875,True
+main_benchmark,SACSI-POMDP - DDPG,0.017578125,0.046875,True
+factorial_pairwise,SACSI Full - SAC Basic,0.015625,0.046875,True
+factorial_pairwise,SACSI Full - SAC + Forecast,0.0234375,0.046875,True
+factorial_pairwise,SACSI Full - SAC + LSTM,0.451171875,0.451171875,False
+factorial_effect,Forecast main effect,0.71484375,0.96484375,False
+factorial_effect,Memory main effect,0.005859375,0.017578125,True
+factorial_effect,Forecast x Memory interaction,0.482421875,0.96484375,False

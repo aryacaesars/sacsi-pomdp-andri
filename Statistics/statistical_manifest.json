@@ -1,0 +1,28 @@
+{
+  "source": "Results\\Final_Experiment\\benchmark_2025_runs.csv",
+  "source_sha256": "fcefbc2bd2bd162215bafe7212114cd9b58809a2a9199c33bb9f5dd0085c2374",
+  "design": "2x2 repeated measures; subject=matched training seed",
+  "factor_mapping": {
+    "SAC Basic": "F0 M0",
+    "SAC + Forecast": "F1 M0",
+    "SAC + LSTM": "F0 M1",
+    "SACSI Full": "F1 M1"
+  },
+  "primary_endpoint": "Time in Target (%)",
+  "n_seeds": 10,
+  "failed_validation_seeds_retained": 1,
+  "factorial_test": "one-df within-seed contrast; F=t^2; df1=1; df2=9",
+  "pairwise_test": "paired two-sided t-test",
+  "multiplicity": "Holm correction over three pre-specified SACSI comparisons",
+  "effect_sizes": [
+    "partial eta-squared",
+    "Cohen's dz"
+  ],
+  "confidence_interval": "95% percentile bootstrap; 20000 resamples",
+  "parametric_confidence_interval": "95% Student-t CI paired to the primary t/F tests",
+  "robust_confirmation": "exact two-sided paired sign-flip; all 2^10 assignments",
+  "robust_multiplicity": "Holm correction over the same three exact sign-flip comparisons",
+  "secondary_metrics": "descriptive contrasts only",
+  "deterministic_baselines": "single trajectory references; excluded from seed inference",
+  "generated_utc": "2026-08-12T17:36:12.621972+00:00"
+}

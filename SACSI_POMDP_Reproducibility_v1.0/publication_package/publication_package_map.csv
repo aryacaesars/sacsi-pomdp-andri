@@ -1,0 +1,9 @@
+category,source,package_destination,distribution,purpose
+environment,README.md|requirements.txt|environment.yml|LICENSE_or_data_notice.md,package root,included,"Setup, scope, and rights notice"
+source,src/|scripts/|configs/|tests/,src/|scripts/|configs/|tests/,included,Executable implementation and tests
+data,00_Dataset/,data_provenance/dataset_manifest_sha256.csv,hashes_only,Raw data excluded pending license clearance
+checkpoints,Results/Confirmatory_10Seed/*checkpoint_registry.csv,checkpoint_registry.csv|publication_package/sac_family_checkpoint_registry.csv,registry_only,Checkpoint paths and verified hashes; binaries remain in research repository
+results,Results/Confirmatory_10Seed/,master_results.csv|statistics/|tables/,included,Frozen seed-level results and statistics
+dashboard,Dashboard/|Results/Dashboard/,dashboard/,included,Read-only evidence dashboard
+dissertation,Docs/Dissertation/|Results/Dissertation_Evidence/,dissertation_evidence/,included,Reconciled drafts and matrices
+defense,Docs/Reviewer_Defense/|Results/Reviewer_Defense/,publication_package/,included,Reviewer responses and defense package

@@ -1,0 +1,28 @@
+{
+  "module": "9D",
+  "status": "READY_FOR_GIT_TAG",
+  "freeze_version": "v1.0",
+  "freeze_level": "DISSERTATION_FREEZE",
+  "result_freeze": "PASS",
+  "dissertation_freeze": "PASS",
+  "publication_package": "GENERATED_WITH_RAW_DATA_EXCLUDED",
+  "raw_data_redistribution": "BLOCKED_PENDING_LICENSE_CLEARANCE",
+  "intended_git_tag": "v1.0-dissertation-freeze",
+  "git_tag_gate": {
+    "required": true,
+    "verification": "python scripts/build_reproducibility_release.py --verify-tag"
+  },
+  "main_result_rows": 40,
+  "factorial_result_rows": 40,
+  "master_result_rows": 80,
+  "main_checkpoint_slots": 40,
+  "sac_family_checkpoint_slots": 40,
+  "result_registry_rows": 42,
+  "artifact_manifest_rows": 137,
+  "synthetic_production_evidence_count": 0,
+  "dashboard_release_status": "READY",
+  "dissertation_release_status": "READY",
+  "defense_release_status": "READY",
+  "manifest_sha256": "c269bf54ade3accec37b5158972382e525d12f009919de1802104a14fc39db6f",
+  "generated_utc": "2026-08-21T11:31:12.902386+00:00"
+}

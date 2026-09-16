@@ -1,0 +1,54 @@
+{
+  "benchmark_type": "retrospective 2025 controlled ablation and robustness",
+  "hours": 8760,
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55,
+    66,
+    77,
+    88,
+    99,
+    110
+  ],
+  "context_conditions": [
+    "Full",
+    "No History",
+    "No Forecast",
+    "No Context",
+    "Shuffled History",
+    "Reversed History",
+    "Zero History",
+    "Shuffled Forecast",
+    "Zero Forecast"
+  ],
+  "forecast_levels_pct": [
+    10,
+    20,
+    30
+  ],
+  "sequence_lengths_h": [
+    6,
+    12,
+    24,
+    48
+  ],
+  "reference_conditions": {
+    "context_ablation": "Full",
+    "forecast_robustness": "SF20",
+    "sequence_sensitivity": "k24"
+  },
+  "context_intervention_definitions": {
+    "No History": "history residual contribution disabled",
+    "No Forecast": "forecast residual contribution disabled",
+    "No Context": "both residual contributions disabled",
+    "Zero History": "history branch active with all-zero sequence input",
+    "Zero Forecast": "forecast branch active with all-zero forecast input"
+  },
+  "checkpoint_selection": "locked validation-2024 checkpoints; no retraining/reselection",
+  "sequence_design": "inference-only window sensitivity using the same k24-trained checkpoint",
+  "sf_noise_design": "matched standard-noise realization scaled to 10/20/30 percent",
+  "generated_utc": "2026-08-12T16:56:07.955879+00:00"
+}

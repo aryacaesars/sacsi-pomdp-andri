@@ -1,0 +1,15 @@
+{
+  "primary_endpoint": "Time in Target (%)",
+  "alpha": 0.05,
+  "factorial_significant_effects": [],
+  "holm_significant_pairwise": [
+    "SACSI Full - SAC Basic"
+  ],
+  "sacsi_superiority_supported": false,
+  "bootstrap_t_discordance": [
+    "Forecast main effect",
+    "Forecast x Memory interaction"
+  ],
+  "inference_rule": "Significance follows the pre-specified parametric p-values and Holm correction; bootstrap and exact sign-flip results are robustness diagnostics.",
+  "interpretation_guard": "Technical/context validity is separate from performance superiority. Deterministic baselines are trajectory references, not fake repeated seeds."
+}

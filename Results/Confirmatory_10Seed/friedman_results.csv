@@ -1,0 +1,2 @@
+endpoint,n_subjects,n_conditions,friedman_chi_square,friedman_df,friedman_p,rm_anova_F,rm_anova_df1,rm_anova_df2,rm_anova_p,rm_anova_partial_eta_squared
+Time in Target (%),10,4,15.06382978723404,3,0.0017629064908650368,7.9457976226672296,3,27,0.0005901553305124671,0.46889487291165816

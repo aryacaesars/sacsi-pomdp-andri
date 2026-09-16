@@ -1,0 +1,58 @@
+{
+  "decision_status": "FINAL_REWARD_LOCKED",
+  "selected_reward": {
+    "reward_version": "reward_v4",
+    "candidate_id": "wI=0.5|wV=2.0",
+    "tracking_weight": 100.0,
+    "deficit_ratio": 2.0,
+    "water_weight": 0.01,
+    "smoothness_weight": 0.01,
+    "violation_weight": 2.0,
+    "validation_summary": {
+      "experiment": "confirmation",
+      "candidate_id": "wI=0.5|wV=2.0",
+      "time_in_target_pct_mean": 56.82832422586521,
+      "time_in_target_pct_std": 5.151502996995269,
+      "total_irrigation_mm_mean": 613.4448464185,
+      "total_irrigation_mm_std": 146.97611331304267,
+      "violation_rate_pct_mean": 43.17167577413479,
+      "violation_rate_pct_std": 5.151502996995271,
+      "deficit_rate_pct_mean": 1.938752276867031,
+      "deficit_rate_pct_std": 5.745795869975608,
+      "rmse_band_mean": 0.027445936420729438,
+      "rmse_band_std": 0.0009088877711335019,
+      "action_smoothness_mean": 0.02709180679039519,
+      "action_smoothness_std": 0.014743388697727771,
+      "reward_tracking_cost_total_mean": 13787.907137889464,
+      "reward_tracking_cost_total_std": 1576.078697256931,
+      "reward_water_cost_total_mean": 6.134448464185001,
+      "reward_water_cost_total_std": 1.4697611331304272,
+      "reward_smoothness_cost_total_mean": 2.380210253715515,
+      "reward_smoothness_cost_total_std": 1.2952696146500264,
+      "reward_violation_cost_total_mean": 7584.4,
+      "reward_violation_cost_total_std": 905.016046512129,
+      "n_seeds": 10,
+      "pareto_non_dominated": true
+    }
+  },
+  "selection_split": "validation_2024",
+  "benchmark_2025_accessed": false,
+  "matched_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55,
+    66,
+    77,
+    88,
+    99,
+    110
+  ],
+  "predefined_rule": "Require Pareto non-dominance and Time-in-Target SD <= 10 pp; among candidates within 0.5 pp of the highest mean Time in Target, select the lowest mean irrigation.",
+  "practical_equivalence_margin_pp": 0.5,
+  "eligible_candidates": [
+    "wI=0.5|wV=2.0"
+  ],
+  "claim_guard": "Selected on validation 2024; this is not a final 2025 superiority result."
+}

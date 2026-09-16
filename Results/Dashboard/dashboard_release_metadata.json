@@ -1,0 +1,25 @@
+{
+  "module": "9A",
+  "status": "READY",
+  "page_map": [
+    "Research Design",
+    "Reward Lab",
+    "Simple-Case & Raw-Data Validation",
+    "Fair DRL Benchmark",
+    "POMDP Contribution",
+    "10-Seed Confirmatory Statistics",
+    "Robustness & Context Diagnostics",
+    "Reviewer Evidence Matrix",
+    "Reproducibility & Provenance"
+  ],
+  "source_of_truth": "Results/Confirmatory_10Seed",
+  "result_registry_rows": 24,
+  "reviewer_items_mapped": 12,
+  "reviewer_mapping_pct": 100.0,
+  "synthetic_production_evidence_count": 0,
+  "historical_sprint13_excluded_from_final_claims": true,
+  "result_registry_sha256": "42146c55d554fbe8d189791dff1003de2aea1a70c94074a41e90480df6d4c52c",
+  "reviewer_evidence_matrix_sha256": "e5548ff6d01a958512df44804eeb1ffe72f1b49e3dea592bae463a6d1e09d296",
+  "confirmatory_manifest_sha256": "7a67ad198357e19335598c718e00b08044a896d5a41c1000ea586c05365aa20c",
+  "generated_utc": "2026-08-20T15:34:28.919295+00:00"
+}

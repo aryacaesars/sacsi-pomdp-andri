@@ -1,0 +1,35 @@
+{
+  "module": "9C",
+  "status": "READY",
+  "dashboard_release_status": "READY",
+  "dissertation_release_status": "READY",
+  "reviewer_items_answered": 12,
+  "reviewer_coverage_pct": 100.0,
+  "defense_questions": 16,
+  "mandatory_topics_covered": 11,
+  "claim_rows": 13,
+  "unsupported_claim_warnings": 18,
+  "outputs": {
+    "reviewer_response_matrix.csv": {
+      "path": "Results/Reviewer_Defense/reviewer_response_matrix.csv",
+      "sha256": "b527711a18cb08d2f2fbaf66871e49b2ef58cac627bcedeae21fa311551a70ac"
+    },
+    "defense_qa_bank.csv": {
+      "path": "Results/Reviewer_Defense/defense_qa_bank.csv",
+      "sha256": "4227fffe20b5651fe48493bb21fc3d43b5e207f8f462bc2d153e2f8419b82191"
+    },
+    "claim_to_evidence_matrix.csv": {
+      "path": "Results/Reviewer_Defense/claim_to_evidence_matrix.csv",
+      "sha256": "0d2bfbc97620a3dc1637493b295505a2c35e3359b8af358603a63d91c074c738"
+    },
+    "red_flag_wording.md": {
+      "path": "Docs/Reviewer_Defense/red_flag_wording.md",
+      "sha256": "e901e21e7571ee86b91f446767465c96530a1d9c19d144e9c46e5c23c38ea796"
+    },
+    "one_page_defense_card.md": {
+      "path": "Docs/Reviewer_Defense/one_page_defense_card.md",
+      "sha256": "418632f958d4ee6c11c90e172f69525d4e3733943849d2dd881a042ab2d74e1a"
+    }
+  },
+  "generated_utc": "2026-08-21T11:24:30.730339+00:00"
+}

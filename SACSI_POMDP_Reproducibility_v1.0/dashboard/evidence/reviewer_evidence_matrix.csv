@@ -1,0 +1,13 @@
+reviewer_item_id,reviewer_question_or_input,module_source,evidence_file,dashboard_page,claim_status,readiness_status
+RA-01,RM dan tujuan one-to-one,8A,Docs/Reviewer_Alignment/research_question_objective_map.csv,Research Design,MAPPED,READY
+RA-02,Tujuan terukur,8A,Docs/Reviewer_Alignment/research_question_objective_map.csv,Research Design,MAPPED,READY
+RA-03,Argumentasi POMDP,8A|8G,Docs/Reviewer_Alignment/scope_and_data_classification.md|Results/POMDP_Ablation/context_intervention_results.csv,POMDP Contribution,SUPPORTED_WITH_GUARD,READY
+RA-04,Argumentasi SAC,8A|8F,Docs/Reviewer_Alignment/scope_and_data_classification.md|Results/Fair_DRL/fairness_audit.json,Fair DRL Benchmark,SUPPORTED,READY
+RA-05,Justifikasi DDPG dan TD3,8D|8E|8F,Results/DDPG/ddpg_validation_results.csv|Results/TD3/td3_validation_results.csv|Results/Confirmatory_10Seed/main_10seed_results_2025.csv,Fair DRL Benchmark,SUPPORTED,READY
+RA-06,Justifikasi forecast dan LSTM,8G|8H,Results/POMDP_Ablation/context_intervention_results.csv|Results/Confirmatory_10Seed/factorial_inference.csv,POMDP Contribution,PARTIALLY_SUPPORTED,READY
+RA-07,Virtual Garden dan scope,8A|8C,Docs/Reviewer_Alignment/scope_and_data_classification.md|Results/Simple_Case_Validation/simple_case_results.csv,Simple-Case & Raw-Data Validation,SUPPORTED_WITH_SCOPE_GUARD,READY
+RA-08,Klasifikasi data,8A|8C,Docs/Reviewer_Alignment/scope_and_data_classification.md|Results/Simple_Case_Validation/raw_episode_summary.csv,Simple-Case & Raw-Data Validation,SUPPORTED_WITH_DATA_CLASSIFICATION,READY
+RA-09,Optimasi versus efisiensi,8A|8B|8H,Results/Reward_Validation/reward_pareto.csv|Results/Confirmatory_10Seed/main_10seed_results_2025.csv,Reward Lab,SUPPORTED_WITH_TRADEOFF_GUARD,READY
+RA-10,Fair comparison hierarchy,8C|8F|8G|8H,Results/Fair_DRL/fairness_audit.json|Results/Confirmatory_10Seed/main_10seed_results_2025.csv|Results/Confirmatory_10Seed/sac_family_10seed_factorial.csv,Fair DRL Benchmark,SUPPORTED_WITH_BUDGET_GUARD,READY
+RA-11,Field-validation guard,8A|9B|9C,Docs/Reviewer_Alignment/scope_and_data_classification.md|Results/Confirmatory_10Seed/final_statistics_summary.json,Research Design,NO_FIELD_CLAIM,READY
+RA-12,Negative/null result policy,8G|8H|9B|9C,Docs/Reviewer_Alignment/hypothesis_map.csv|Results/Confirmatory_10Seed/final_statistics_summary.json,10-Seed Confirmatory Statistics,NULL_RESULTS_RETAINED,READY

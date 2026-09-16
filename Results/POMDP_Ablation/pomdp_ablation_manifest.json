@@ -1,0 +1,50 @@
+{
+  "module": "8G",
+  "status": "COMPLETE_EXPLORATORY_REVALIDATION",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "reward_version": "reward_v4",
+  "base_anchor_budget_per_seed": 6720,
+  "context_adaptation_budget_per_seed": 6720,
+  "checkpoint_selection": "validation_2024_gate_target_water_rmse",
+  "evaluation": "retrospective benchmark 2025; opened only after training lock",
+  "factorial_variants": [
+    "SAC Basic",
+    "SAC + Forecast",
+    "SAC + LSTM",
+    "SACSI Full"
+  ],
+  "context_conditions": [
+    "Full",
+    "No History",
+    "No Forecast",
+    "No Context",
+    "Shuffled History",
+    "Reversed History",
+    "Zero History",
+    "Shuffled Forecast",
+    "Zero Forecast"
+  ],
+  "forecast_levels": [
+    "SF10",
+    "SF20",
+    "SF30"
+  ],
+  "sequence_lengths": [
+    6,
+    12,
+    24,
+    48
+  ],
+  "claim_guard": {
+    "branch_activation_is_not_performance_benefit": true,
+    "aggregate_means_are_not_statistical_significance": true,
+    "performance_superiority_claim_released": false,
+    "statistical_significance_claim_released": false
+  },
+  "protocol_limitation": "Context variants use the locked SAC anchor plus an equal adaptation budget; factorial performance effects are exploratory and include adaptation effects.",
+  "generated_utc": "2026-08-20T09:51:22.551896+00:00"
+}

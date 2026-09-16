@@ -1,0 +1,45 @@
+{
+  "module": "8H",
+  "status": "COMPLETE_CONFIRMATORY",
+  "primary_endpoint": "Time in Target (%)",
+  "matched_seeds": [
+    11,
+    22,
+    33,
+    44,
+    55,
+    66,
+    77,
+    88,
+    99,
+    110
+  ],
+  "friedman_significant_0_05": true,
+  "main_locked_pipeline_superiority_supported": true,
+  "released_main_pipeline_contrasts": [
+    "SACSI-POMDP - SAC",
+    "SACSI-POMDP - TD3",
+    "SACSI-POMDP - DDPG"
+  ],
+  "released_factorial_pipeline_effects": [
+    "Memory main effect"
+  ],
+  "unqualified_equal_total_budget_superiority_claim_released": false,
+  "claim_scope": "locked warm-start training pipelines only",
+  "failed_validation_seeds_retained": {
+    "main_rows": 16,
+    "factorial_rows": 2
+  },
+  "inference_rule": "Friedman is the omnibus test. Planned comparisons use exact paired sign-flip tests with Holm correction; Cohen's dz, 20,000-resample percentile bootstrap CIs, paired t tests, and repeated-measures ANOVA are reported sensitivities.",
+  "protocol_limitation": "Context variants use 6,720-interaction SAC anchors plus 6,720 adaptation interactions; non-context algorithms use 6,720 total interactions. Statistical results confirm the locked training pipelines, not a pure equal-total-budget architecture effect.",
+  "negative_and_null_results_retained": true,
+  "benchmark_wording": "retrospective final benchmark 2025",
+  "reward_version": "reward_v4",
+  "training_device_required": "cuda",
+  "checkpoint_selection": "validation 2024 only",
+  "benchmark_2025_loaded_after_all_checkpoint_registries_locked": true,
+  "no_retraining_or_reselection_after_2025_opening": true,
+  "main_rows": 40,
+  "factorial_rows": 40,
+  "generated_utc": "2026-08-20T12:55:06.427906+00:00"
+}

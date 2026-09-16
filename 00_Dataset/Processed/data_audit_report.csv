@@ -1,0 +1,15 @@
+dataset,scope,column,row_count,start,end,duplicate_timestamps,missing_hours,missing_values
+weather,dataset,,43824,2021-01-01T00:00:00,2025-12-31T23:00:00,0,0,0
+weather,column,timestamp,43824,,,,,0
+weather,column,temperature_c,43824,,,,,0
+weather,column,relative_humidity_pct,43824,,,,,0
+weather,column,precipitation_mm,43824,,,,,0
+weather,column,rain_mm,43824,,,,,0
+weather,column,et0_mm,43824,,,,,0
+weather,column,vpd_kpa,43824,,,,,0
+weather,column,shortwave_radiation_w_m2,43824,,,,,0
+forecast,dataset,,43104,2021-01-31T00:00:00,2025-12-31T23:00:00,0,0,0
+forecast,column,timestamp,43104,,,,,0
+forecast,column,forecast_temperature_c,43104,,,,,0
+forecast,column,forecast_precipitation_mm,43104,,,,,0
+forecast,column,forecast_et0_mm,43104,,,,,0

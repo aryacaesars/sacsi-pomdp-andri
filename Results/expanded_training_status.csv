@@ -1,0 +1,41 @@
+model,seed,status,started,finished,log
+SAC Basic,11,complete-existing,,,Logs\Expanded_Training\sac_basic_seed11.log
+SAC Basic,22,complete-existing,,,Logs\Expanded_Training\sac_basic_seed22.log
+SAC Basic,33,complete-existing,,,Logs\Expanded_Training\sac_basic_seed33.log
+SAC Basic,44,complete-existing,,,Logs\Expanded_Training\sac_basic_seed44.log
+SAC Basic,55,complete-existing,,,Logs\Expanded_Training\sac_basic_seed55.log
+SAC Basic,66,complete-existing,,,Logs\Expanded_Training\sac_basic_seed66.log
+SAC Basic,77,complete-existing,,,Logs\Expanded_Training\sac_basic_seed77.log
+SAC Basic,88,complete-existing,,,Logs\Expanded_Training\sac_basic_seed88.log
+SAC Basic,99,complete-existing,,,Logs\Expanded_Training\sac_basic_seed99.log
+SAC Basic,110,complete-existing,,,Logs\Expanded_Training\sac_basic_seed110.log
+SAC + Forecast,11,complete-existing,,,Logs\Expanded_Training\sac_plus_forecast_seed11.log
+SAC + Forecast,22,complete-existing,,,Logs\Expanded_Training\sac_plus_forecast_seed22.log
+SAC + Forecast,33,complete-existing,,,Logs\Expanded_Training\sac_plus_forecast_seed33.log
+SAC + Forecast,44,complete-existing,,,Logs\Expanded_Training\sac_plus_forecast_seed44.log
+SAC + Forecast,55,complete-existing,,,Logs\Expanded_Training\sac_plus_forecast_seed55.log
+SAC + Forecast,66,complete-existing,,,Logs\Expanded_Training\sac_plus_forecast_seed66.log
+SAC + Forecast,77,complete,2026-08-12T06:43:06.427552+00:00,2026-08-12T06:54:52.739842+00:00,Logs\Expanded_Training\sac_plus_forecast_seed77.log
+SAC + Forecast,88,complete,2026-08-12T06:54:52.741153+00:00,2026-08-12T07:05:36.787599+00:00,Logs\Expanded_Training\sac_plus_forecast_seed88.log
+SAC + Forecast,99,complete,2026-08-12T07:05:36.788610+00:00,2026-08-12T07:15:44.079850+00:00,Logs\Expanded_Training\sac_plus_forecast_seed99.log
+SAC + Forecast,110,complete,2026-08-12T07:15:44.080769+00:00,2026-08-12T07:26:06.759721+00:00,Logs\Expanded_Training\sac_plus_forecast_seed110.log
+SAC + LSTM,11,complete-existing,,,Logs\Expanded_Training\sac_plus_lstm_seed11.log
+SAC + LSTM,22,complete-existing,,,Logs\Expanded_Training\sac_plus_lstm_seed22.log
+SAC + LSTM,33,complete-existing,,,Logs\Expanded_Training\sac_plus_lstm_seed33.log
+SAC + LSTM,44,complete,2026-08-12T07:26:08.147114+00:00,2026-08-12T07:28:30.414556+00:00,Logs\Expanded_Training\sac_plus_lstm_seed44.log
+SAC + LSTM,55,complete,2026-08-12T07:28:30.415464+00:00,2026-08-12T07:30:53.478673+00:00,Logs\Expanded_Training\sac_plus_lstm_seed55.log
+SAC + LSTM,66,complete,2026-08-12T07:30:53.479523+00:00,2026-08-12T07:33:17.931014+00:00,Logs\Expanded_Training\sac_plus_lstm_seed66.log
+SAC + LSTM,77,complete,2026-08-12T07:33:17.931811+00:00,2026-08-12T07:35:42.969050+00:00,Logs\Expanded_Training\sac_plus_lstm_seed77.log
+SAC + LSTM,88,complete,2026-08-12T07:35:42.970007+00:00,2026-08-12T07:38:06.656994+00:00,Logs\Expanded_Training\sac_plus_lstm_seed88.log
+SAC + LSTM,99,complete,2026-08-12T07:38:06.658025+00:00,2026-08-12T07:40:32.019068+00:00,Logs\Expanded_Training\sac_plus_lstm_seed99.log
+SAC + LSTM,110,complete,2026-08-12T07:40:32.019982+00:00,2026-08-12T07:42:55.532112+00:00,Logs\Expanded_Training\sac_plus_lstm_seed110.log
+SACSI Full,11,complete-existing,,,Logs\Expanded_Training\sacsi_full_seed11.log
+SACSI Full,22,complete-existing,,,Logs\Expanded_Training\sacsi_full_seed22.log
+SACSI Full,33,complete-existing,,,Logs\Expanded_Training\sacsi_full_seed33.log
+SACSI Full,44,complete,2026-08-12T07:42:57.128581+00:00,2026-08-12T07:45:52.070115+00:00,Logs\Expanded_Training\sacsi_full_seed44.log
+SACSI Full,55,complete,2026-08-12T07:45:52.070950+00:00,2026-08-12T07:48:45.143003+00:00,Logs\Expanded_Training\sacsi_full_seed55.log
+SACSI Full,66,complete,2026-08-12T07:48:45.143945+00:00,2026-08-12T07:51:37.136651+00:00,Logs\Expanded_Training\sacsi_full_seed66.log
+SACSI Full,77,complete,2026-08-12T07:51:37.137470+00:00,2026-08-12T07:54:29.147743+00:00,Logs\Expanded_Training\sacsi_full_seed77.log
+SACSI Full,88,complete,2026-08-12T07:54:29.148582+00:00,2026-08-12T07:57:22.644355+00:00,Logs\Expanded_Training\sacsi_full_seed88.log
+SACSI Full,99,complete,2026-08-12T07:57:22.645313+00:00,2026-08-12T08:00:15.299691+00:00,Logs\Expanded_Training\sacsi_full_seed99.log
+SACSI Full,110,complete,2026-08-12T08:00:15.300540+00:00,2026-08-12T08:03:07.261940+00:00,Logs\Expanded_Training\sacsi_full_seed110.log

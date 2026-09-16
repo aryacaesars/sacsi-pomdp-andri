@@ -1,0 +1,31 @@
+{
+  "model": "SAC Basic",
+  "device": "cuda",
+  "seed": 11,
+  "training_period": "2021-2023",
+  "validation_period": "2024",
+  "reward_version": "reward_v2",
+  "virtual_garden_version": "field_capacity_0.35",
+  "episodes": 4,
+  "episode_length": 336,
+  "selected_episode": 4,
+  "transitions": 1344,
+  "validation_gate": false,
+  "validation_metrics": {
+    "total_irrigation_mm": 287.35919654369354,
+    "time_in_target_pct": 25.330145719489984,
+    "violation_rate_pct": 74.66985428051002,
+    "deficit_rate_pct": 31.967213114754102,
+    "surplus_rate_pct": 42.70264116575592,
+    "rmse_band": 0.0352837824820149,
+    "mean_soil_moisture": 0.281007408884694,
+    "runoff_total_mm": 74.8875090700876,
+    "drainage_total_mm": 1403.6223184933335,
+    "action_smoothness": 0.0032404370009593755,
+    "decision_latency_ms": 0.0,
+    "water_use_efficiency": 7.742922540019297,
+    "max_abs_mass_balance_error_mm": 2.842170943040401e-14,
+    "cumulative_reward": -32501.769665838965
+  },
+  "timestamp": "2026-08-10T21:28:48.586842+00:00"
+}
